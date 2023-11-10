@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+
+.apresentacao{
+    padding: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao_conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao_conteudo_titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao_conteudo_texto{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 450px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #22D4FD;
+    
+}
+.apresentacao__links__link:hover{
+    background-color: rgb(68, 68, 68);
+}
+.apresentacao__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+}
+.rodape{
+    
+    background-color: #22D4FD;
+    color: #000000;
+    text-align: center;
+    padding:25px;
+    margin-top: 7%;
+}
+
+.rodape__titulo{
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif; 
+    font-weight: 500;
+
+}
+
+.cabecalho{
+    padding: 4% 0% 0% 15%;
+    
+
+}
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+    
+
+}
+.cabecalho__links {
+    color: #22D4FD;
+    font-family:'Montserrat', sans-serif;   
+    font-size: 25px;
+    text-decoration: none;
+    
+}
+     
+.rodape2{
+    background-color: #22D4FD;
+    color: #000000;
+    text-align: center;
+    padding:25px;
+    margin-top: 0%;
+
+}
